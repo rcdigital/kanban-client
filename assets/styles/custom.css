@@ -1,0 +1,7 @@
+.sign-in-button {
+  border: 0;
+  cursor: pointer;
+  background-color: transparent;
+  outline: #F00;
+  border-radius: 5px;
+}
