@@ -1,0 +1,30 @@
+  <section class="w-section w-hidden-tiny w-clearfix menu">
+    <ng-include src="'app/components/kanban/partials/menu.html'"></ng-include>
+    <h2 class="column-label lateral">To-do</h2>
+    <h2 class="column-label central">Doing</h2>
+    <h2 class="column-label lateral">Done</h2>
+  </section>
+
+  <section class="w-section w-hidden-tiny project-wrapper">
+    <main class="w-clearfix story-wrapper">
+      <header class="w-section story-title-wrapper">
+        <h3 class="story-title">Título da história</h3>
+        <div class="clock-icon"></div>
+        <h3 class="story-title hours">67h</h3>
+      </header>
+
+      <section class="w-section column-lateral">
+        <scruman-task></scruman-task>
+      </section>
+    </main>
+  </section>
+  <div class="w-hidden-tiny column-central-bg"></div>
+  <div class="w-container w-hidden-main w-hidden-medium w-hidden-small message-container">
+    <div class="icon-broken"></div>
+    <p class="message-broken">Scruman was designed to work on bigger screens.
+      <br>
+      <br>Try rotate your device or run the application from another screen.
+      <br>
+      <br>; )</p>
+  </div>
+  <div class="w-section bg"></div>

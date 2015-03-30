@@ -1,5 +1,5 @@
 'use strict';
-angular.module('scruman', ['ngRoute', 'satellizer', 'config'])
+angular.module('scruman', ['ngRoute', 'satellizer', 'config', 'scruman.widgets'])
 .config(function ($httpProvider, $locationProvider, $authProvider, ENV) {
 
   $authProvider.httpInterceptor = true;
@@ -8,5 +8,5 @@ angular.module('scruman', ['ngRoute', 'satellizer', 'config'])
     url: ENV.apiEndpoint + '/users/google/'
   });
 
-  $locationProvider.html5Mode(true);
+  $locationProvider.html5Mode(false);
 });

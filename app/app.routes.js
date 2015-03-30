@@ -7,5 +7,10 @@ angular.module('scruman')
       controller: 'LoginController',
       controllerAs: 'vm'
     })
+    .when('/dashboard', {
+      templateUrl: 'app/components/kanban/KanbanView.html',
+      controller: 'KanbanController',
+      controllerAs: 'vm'
+    })
     .otherwise('/');
 }]);

@@ -5,7 +5,14 @@ module.exports = {
   },
   local_dependencies: {
     files: {
-      'index.html': ['<%= paths.root %>/bower.json','<%= paths.app %>/config.js','<%= paths.app %>/app.module.js' , '<%= paths.app %>/app.routes.js','<%= paths.app %>/components/**/*.js']
+      'index.html': [
+                    '<%= paths.root %>/bower.json',
+                    '<%= paths.app %>/shared/**/*.js' ,
+                    '<%= paths.app %>/config.js',
+                    '<%= paths.app %>/app.module.js' ,
+                    '<%= paths.app %>/app.routes.js',
+                    '<%= paths.app %>/components/**/*.js'
+                  ]
     }
   }
 };

@@ -5,7 +5,7 @@ module.exports = {
   },
   scripts: {
     files: ['assets/scripts/**/*.js', 'app/**/*.js'],
-    tasks: ['jshint', 'concat', 'uglify', 'injector'],
+    tasks: ['injector', 'jshint', 'concat', 'uglify'],
     options: {
       spawn: false
     }

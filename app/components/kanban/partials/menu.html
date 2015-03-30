@@ -1,0 +1,98 @@
+    <nav ng-if="!vm.projectLoaded" class="w-clearfix menu-info-wrapper">
+      <select class="w-select menu-select" id="field-137" name="field-137">
+        <option value="">Projects</option>
+      </select>
+    </nav>
+    <nav ng-if="vm.projectLoaded" class="w-clearfix menu-info-wrapper">
+      <h1 class="project-title">Nome completo do backlog</h1>
+      <div class="menu-icon-time-estimated"></div>
+      <h1 class="project-stats">128h</h1>
+      <div class="menu-icon-time-spent"></div>
+      <h1 class="project-stats">47h</h1>
+      <div class="menu-icon-variation"></div>
+      <h1 class="project-stats">+15%</h1>
+      <div class="w-form select-wrapper">
+        <form id="email-form-2" name="email-form-2" data-name="Email Form 2">
+          <select class="w-select menu-select" id="field-137" name="field-137">
+            <option value="">Backlog</option>
+            <option value="First">First Choice</option>
+            <option value="Second">Second Choice</option>
+            <option value="Third">Third Choice</option>
+          </select>
+        </form>
+        <div class="w-form-done">
+          <p>Thank you! Your submission has been received!</p>
+        </div>
+        <div class="w-form-fail">
+          <p>Oops! Something went wrong while submitting the form :(</p>
+        </div>
+      </div>
+      <div class="menu-button-wrapper"><a class="menu-button-text" href="#">New Task</a>
+        <div class="w-form menu-form-hit-area task">
+          <form class="menu-form" id="email-form-3" name="email-form-3" data-name="Email Form 3">
+            <div class="w-row">
+              <div class="w-col w-col-2">
+                <input class="w-input text-field-task" id="Task-name-2" type="text" placeholder="Task name" name="Task-name-2" data-name="Task Name 2" required="required">
+              </div>
+              <div class="w-col w-col-2">
+                <input class="w-input text-field-task" id="Estimated-Time-2" type="text" placeholder="Estimated time" name="Estimated-Time-2" data-name="Estimated Time 2" required="required">
+              </div>
+              <div class="w-col w-col-2">
+                <select class="w-select select-task" id="field-140" name="field-140" data-name="Field 140">
+                  <option value="">Story</option>
+                  <option value="">nome da história 1</option>
+                  <option value="">nome da história 2</option>
+                  <option value="">nome da história 3</option>
+                </select>
+              </div>
+              <div class="w-col w-col-2">
+                <select class="w-select select-task" id="field-141" name="field-141" data-name="Field 141">
+                  <option value="">Area</option>
+                  <option value="">Criação</option>
+                  <option value="">Desenvolvimento</option>
+                  <option value="">Conteúdo</option>
+                  <option value="">Planejamento</option>
+                  <option value="">Mídia</option>
+                </select>
+              </div>
+              <div class="w-col w-col-2">
+                <input class="w-button menu-form-submit" type="submit" value="Create Task" data-wait=". . ." wait=". . .">
+              </div>
+              <div class="w-col w-col-2"><a class="menu-form-cancel" href="#">Cancel</a>
+              </div>
+            </div>
+          </form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form :(</p>
+          </div>
+        </div>
+      </div>
+      <div class="menu-button-wrapper"><a class="menu-button-text" href="#">New Story</a>
+        <div class="w-form menu-form-hit-area">
+          <form class="menu-form" id="email-form-3" name="email-form-3" data-name="Email Form 3">
+            <div class="w-row">
+              <div class="w-col w-col-3">
+                <input class="w-input text-field-task" id="Story-name" type="text" placeholder="Story name" name="Story-name" data-name="Story name" required="required">
+              </div>
+              <div class="w-col w-col-3">
+                <input class="w-input text-field-task" id="Order" type="text" placeholder="Order" name="Order" data-name="Order" required="required">
+              </div>
+              <div class="w-col w-col-3">
+                <input class="w-button menu-form-submit" type="submit" value="Create Story" data-wait=". . ." wait=". . .">
+              </div>
+              <div class="w-col w-col-3"><a class="menu-form-cancel" href="#">Cancel</a>
+              </div>
+            </div>
+          </form>
+          <div class="w-form-done">
+            <p>Thank you! Your submission has been received!</p>
+          </div>
+          <div class="w-form-fail">
+            <p>Oops! Something went wrong while submitting the form :(</p>
+          </div>
+        </div>
+      </div>
+    </nav>
